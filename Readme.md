@@ -1,0 +1,1 @@
+This repo will be hosted on http://vbitz.com/game-idea-generator

@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+	line-height: 0;
+}
+
+.container {
+	width: 900px;
+	margin: 20px auto;
+}
+
+h1 small {
+	color: #666;
+	font-size: 60%;
+	font-weight: bolder;
+}
+
+.idea-box {
+	display: block;
+	margin: 25% auto;
+
+	width: 400px;
+	
+	font-size: 150%;
+	text-align: center;
+}
+
+.btn-submit {
+	display: block;
+	width: 200px;
+	height: 40px;
+	margin: 10px auto;
+}
