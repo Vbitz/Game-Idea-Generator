@@ -1,6 +1,5 @@
 body {
 	font-family: sans-serif;
-	line-height: 0;
 }
 
 .container {
@@ -16,12 +15,28 @@ h1 small {
 
 .idea-box {
 	display: block;
-	margin: 25% auto;
+	margin: 100px auto;
 
-	width: 400px;
+	width: 820px;
 	
 	font-size: 150%;
 	text-align: center;
+
+	line-height: 40px;
+}
+
+.idea-title {
+	font-weight: bold;
+	width: 290px;
+	display: inline-block;
+	text-align: right;
+}
+
+.idea-body {
+	font-weight: normal;
+	width: 520px;
+	display: inline-block;
+
 }
 
 .btn-submit {

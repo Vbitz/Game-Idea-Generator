@@ -8,14 +8,18 @@
 	<script src="generator.js"></script>
 </head>
 
-<body>
+<body onload="doGenerate();">
 	<div class="container">
 		<h1>Game Idea Generator <small>By Vbitz</small></h1>
 
 		<div class="idea-box">
-			
+			<span class="idea-title">Why Adventure?</span><span class="idea-body" id="reason">To rescue a princess</span><br />
+			<span class="idea-title">Where is the Adventure?</span><span class="idea-body" id="time">World</span><br />
+			<span class="idea-title">Mechanic 1</span><span class="idea-body" id="mechanic1">This is</span><br />
+			<span class="idea-title">Mechanic 2</span><span class="idea-body" id="mechanic2">a</span><br />
+			<span class="idea-title">Mechanic 3</span><span class="idea-body" id="mechanic3">Cyberpunk Future</span><br />
 		</div>
-		<button id="generateNew" class="btn-submit">Generate New Idea</button>
+		<button onclick="doGenerate();" class="btn-submit">Generate New Idea</button>
 	</div>
 </body>
 </html>
